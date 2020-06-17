@@ -7,3 +7,8 @@ This is a http trigger function written in Typescript in Visual Studio Code as t
 * Azure Cosmos 3.7 to connect to the Cosmos DB SQL API *(npm i @azure/cosmos)* https://www.npmjs.com/package/@azure/cosmos
 * isomorphic-fetch version 2.2.1 used to fetch data from Microsoft graph REST API *(npm i isomorphic-fetch es6-promise)* https://www.npmjs.com/package/isomorphic-fetch
 * Microsoft graph types 1.12 to get the intellisence support for graph objects, in this example its emails *(npm i @microsoft/microsoft-graph-types)* https://www.npmjs.com/package/@microsoft/microsoft-graph-types
+
+## How to run the solution
+
+ * You have to create a Cosmos DB account with SQL API and go to the Connection String section and get the endpoint and primary key to connect to the database
+ * Open the solution from Visual Studio code, install all the packages from npm i command and run the solution
